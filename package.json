@@ -1,0 +1,19 @@
+{
+  "name": "word_mammoth",
+  "version": "1.0.0",
+  "description": "upload a docx file and upload image to server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": ["docx", "mammoth"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "mammoth": "^1.4.21"
+  }
+}
